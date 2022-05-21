@@ -1,5 +1,5 @@
 # Files
-fname = input(" mbox-short.txt")
+fname = input("mbox-short.txt")
 fh = open(fname)
 count = 0
 average = 0
