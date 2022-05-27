@@ -11,10 +11,7 @@ while True:
         n = int(num)
     except :
        print ("Invalid input")
-    
-    
-    
-    if largest is None :
+      if largest is None :
         largest = n
     elif n >largest:
         largest = n
@@ -22,4 +19,6 @@ while True:
         smallest = n
     elif n <smallest:
         smallest = n
+print("Maximum is",largest)
+print("Minimum is",smallest)
     
