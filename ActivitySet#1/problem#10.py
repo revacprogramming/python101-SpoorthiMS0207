@@ -8,6 +8,8 @@ max=dict()
 for line in text :
   line.rstrip()
   if not line.startswith ("from"):
+    continue :
+    word=line.split()
 
 
 
