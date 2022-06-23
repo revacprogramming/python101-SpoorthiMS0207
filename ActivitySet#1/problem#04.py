@@ -2,7 +2,7 @@
 
 hrs = input("Enter Hours:")
 h = float(hrs)
-rate=input("Enter Rate :")
+rate=input("Enter Rate:")
 rate=float(rate)
 if h<=40 :
     pay = h*rate
