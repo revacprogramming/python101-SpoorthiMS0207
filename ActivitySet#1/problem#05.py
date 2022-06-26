@@ -7,5 +7,5 @@ def computepay(h,r):
     return ((40*r)+rate1)
 hrs = float(raw_input("Enter Hours:"))
 rate = float(raw_input("Enter Rate:"))
-p = computepay(hrs,rate)
-print ("Pay",p)
+pay= computepay(hrs,rate)
+print ("Pay",pay)    
