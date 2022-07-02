@@ -11,11 +11,11 @@ smallest = None
        print ("Invalid input")
       if largest is None :
         largest = n
-    elif n >largest:
+    elif n > largest:
         largest = n
     if smallest is None :
         smallest = n
-    elif n <smallest:
+    elif n < smallest:
         smallest = n
 print("Maximum is",largest)
 print("Minimum is",smallest)

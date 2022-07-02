@@ -12,4 +12,4 @@ if score>=0.1 and score<=1 :
   elif score < 0.6 :
     print('F')
   else :
-    print(" Invalid score")
+    print("Invalid Score!!")
