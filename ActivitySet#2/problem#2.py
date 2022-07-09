@@ -1,18 +1,11 @@
 
 def add(a, b):
-    pass  # ...
-
-
+    pass 
 def output(a, b, sum):
-    pass  # ...
-
-
+    pass
 def main():
     a, b = input_two_numbers()
     sum = add(a, b)
-
     output(a, b, sum)
-
-
 if __name__ == '__main__':
     main()
